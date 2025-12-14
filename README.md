@@ -1,39 +1,27 @@
 ## Layout 1
 
-**Vertical**
-<p align="center">
-  <img src="imatges/Layout-1.png" width="260" />
-  <img src="imatges/Layout-1-ModoClar.png" width="260" />
-</p>
+### Vertical
+![Layout 1](imatges/Layout-1.png)
+![Layout 1 Clar](imatges/Layout-1-ModoClar.png)
 
-**Horitzontal**
-<p align="center">
-  <img src="imatges/Layout-1-Horitzontal.png" width="700" />
-</p>
+### Horitzontal
+![Layout 1 Horitzontal](imatges/Layout-1-Horitzontal.png)
 
 
 ## Layout 2
 
-**Vertical**
-<p align="center">
-  <img src="imatges/Layout-2.png" width="300" />
-</p>
+### Vertical
+![Layout 2](imatges/Layout-2.png)
 
-**Horitzontal**
-<p align="center">
-  <img src="imatges/Layout-2-Horitzontal.png" width="700" />
-</p>
+### Horitzontal
+![Layout 2 Horitzontal](imatges/Layout-2-Horitzontal.png)
 
 
 ## Layout 3
 
-**Vertical**
-<p align="center">
-  <img src="imatges/Layout-3.png" width="260" />
-  <img src="imatges/Layout-3-ModoClar.png" width="260" />
-</p>
+### Vertical
+![Layout 3](imatges/Layout-3.png)
+![Layout 3 Clar](imatges/Layout-3-ModoClar.png)
 
-**Horitzontal**
-<p align="center">
-  <img src="imatges/Layout-3-Horizontal.png" width="700" />
-</p>
+### Horitzontal
+![Layout 3 Horitzontal](imatges/Layout-3-Horizontal.png)
