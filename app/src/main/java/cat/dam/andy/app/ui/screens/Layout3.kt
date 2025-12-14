@@ -30,7 +30,6 @@ fun Layout3(isDarkMode: Boolean = isSystemInDarkTheme()) {
             .padding(16.dp)
     ) {
 
-        // Títol de la pantalla
         Text(
             text = "Mi cuenta",
             color = mainTextColor,
@@ -38,22 +37,18 @@ fun Layout3(isDarkMode: Boolean = isSystemInDarkTheme()) {
             modifier = Modifier.padding(bottom = 24.dp)
         )
 
-        // Nom d'usuari
         Text(text = "Nom d'usuari:", color = labelTextColor)
         Text(text = "Usuari 1", color = mainTextColor, fontSize = 18.sp)
         Spacer(modifier = Modifier.height(16.dp))
 
-        // Correu electrònic
         Text(text = "Correu electrònic:", color = labelTextColor)
         Text(text = "usuari@example.com", color = mainTextColor, fontSize = 18.sp)
         Spacer(modifier = Modifier.height(16.dp))
 
-        // Pla
         Text(text = "Pla:", color = labelTextColor)
         Text(text = "Premium UHD", color = mainTextColor, fontSize = 18.sp)
         Spacer(modifier = Modifier.height(24.dp))
 
-        // Títol opcions
         Text(text = "Opcions:", color = labelTextColor)
 
         Spacer(modifier = Modifier.height(8.dp))

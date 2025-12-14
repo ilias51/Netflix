@@ -30,7 +30,6 @@ fun Layout2() {
             modifier = Modifier.padding(bottom = 16.dp)
         )
 
-        // Banner simple
         Box(
             modifier = Modifier
                 .fillMaxWidth()

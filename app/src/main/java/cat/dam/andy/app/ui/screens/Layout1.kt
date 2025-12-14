@@ -25,13 +25,12 @@ fun Layout1(isDarkMode: Boolean = isSystemInDarkTheme()) {
 
     Column(
         modifier = Modifier
-            .fillMaxSize()              // La columna ocupa tota la pantalla
+            .fillMaxSize()
             .background(backgroundColor),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
 
-        // Títol principal de la pantalla
         Text(
             text = "Qui està mirant?",
             color = mainTextColor,
@@ -39,7 +38,6 @@ fun Layout1(isDarkMode: Boolean = isSystemInDarkTheme()) {
             modifier = Modifier.padding(bottom = 40.dp)
         )
 
-        // Primera fila amb dos perfils
         Row(
             horizontalArrangement = Arrangement.SpaceEvenly,
             modifier = Modifier
@@ -50,7 +48,6 @@ fun Layout1(isDarkMode: Boolean = isSystemInDarkTheme()) {
             ProfileItem("Usuari 2", avatarColor, mainTextColor)
         }
 
-        // Segona fila amb altres dos perfils
         Row(
             horizontalArrangement = Arrangement.SpaceEvenly,
             modifier = Modifier
@@ -63,7 +60,6 @@ fun Layout1(isDarkMode: Boolean = isSystemInDarkTheme()) {
 
         Spacer(modifier = Modifier.height(40.dp))
 
-        // Text petit a la part inferior
         Text(
             text = "Gestionar perfils",
             color = secondaryTextColor,
@@ -72,8 +68,7 @@ fun Layout1(isDarkMode: Boolean = isSystemInDarkTheme()) {
     }
 }
 
-// Un element de perfil individual (avatar + nom)
-// Ara rep també els colors perquè es pugui adaptar al mode
+
 @Composable
 fun ProfileItem(name: String, avatarColor: Color, textColor: Color) {
     Column(
@@ -103,7 +98,6 @@ fun ProfileItem(name: String, avatarColor: Color, textColor: Color) {
     }
 }
 
-// Preview mode fosc
 @Preview(showBackground = true, backgroundColor = 0xFF000000)
 @Composable
 fun PreviewLayout1Dark() {
@@ -112,7 +106,6 @@ fun PreviewLayout1Dark() {
     }
 }
 
-// Preview mode clar
 @Preview(showBackground = true, backgroundColor = 0xFFFFFFFF)
 @Composable
 fun PreviewLayout1Light() {
